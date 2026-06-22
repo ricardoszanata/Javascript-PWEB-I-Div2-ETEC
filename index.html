@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Javascript</title>
 </head>
+
 <body>
     <div>
         <input type="text" name="edtnum1" id="edtnum1" placeholder="DIGITE O 1º NÚMERO">
         <input type="text" name="edtnum2" id="edtnum2" placeholder="DIGITE O 2º NÚMERO">
         <button onclick="calcular()" name="btncalcular" id="btncalcular">CALCULAR</button>
+        <div name="resultado" id="resultado"></div>
     </div>
+
+    <div>
+        <input type="text" name="edtnumero" id="edtnumero" placeholder="Digite o Número da Tabuada">
+        <button onclick="exibirTabuada()" name="btntabuada" id="btntabuada">EXIBIR TABUADA</button>
+        <div name="mostratabuada" id="mostratabuada"></div>
+    </div>
+
+    <div>
+        <h1>Qual é o maior número ?</h1>
+        <input type="text" name="edtn1" id="edtn1" placeholder="Número1">
+        <input type="text" name="edtn2" id="edtn2" placeholder="Número2">
+        <button onclick="verificaMaior()" name="btnmaior" id="btnmaior">Verifica Maior Número</button>
+        <div name="maiornumero" id="maiornumero"></div>
+    </div>
+
     <script src="js/script.js"></script>
 </body>
+
 </html>
